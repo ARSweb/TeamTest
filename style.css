@@ -1,0 +1,46 @@
+body{
+    background:#111;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:sans-serif;
+}
+
+.card{
+    width:350px;
+    padding:30px;
+    border-radius:20px;
+    background:linear-gradient(135deg,#00feba,#5b548a);
+    color:white;
+    text-align:center;
+}
+
+.search{
+    display:flex;
+    gap:10px;
+}
+
+.search input{
+    flex:1;
+    padding:10px;
+    border:none;
+    border-radius:20px;
+}
+
+.search button{
+    padding:10px 15px;
+    border:none;
+    border-radius:50%;
+}
+
+.icon{
+    width:80px;
+    margin:20px 0;
+}
+
+.details{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
